@@ -1,0 +1,80 @@
+body {
+    background-image: url(./img/bb.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+form {
+    margin: 10% 30% 1% 10%;
+    background-color: white;
+    padding: 0.5px 2% 1% 1%;
+    width: 25%;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.name:hover,
+.email:hover,
+.password:hover {
+    background-color: rgba(207, 211, 216, 0.384);
+    cursor: pointer;
+}
+
+.name {
+    width: 94%;
+    height: 27px;
+    border-radius: 5px;
+    background-image: url(./img/man.jpg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    font-size: 13pt;
+}
+
+
+
+.email {
+    width: 94%;
+    height: 27px;
+    border-radius: 5px;
+    background-image: url(./img/mail.jpg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    font-size: 13pt;
+}
+
+.password {
+    width: 94%;
+    height: 27px;
+    border-radius: 5px;
+    background-image: url(./img/lock.jpg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    font-size: 13pt;
+}
+
+.city {
+    width: 102%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.button {
+    width: 101%;
+    height: 27px;
+    background-color: rgb(0, 0, 255);
+    border-radius: 5px;
+    border-style: hidden;
+    color: white;
+}
+
+.button:hover {
+    background-color: crimson;
+    cursor: pointer;
+}
