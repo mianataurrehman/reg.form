@@ -75,6 +75,6 @@ h1 {
 }
 
 .button:hover {
-    background-color: crimson;
+    background-color: rgb(0, 255, 64);
     cursor: pointer;
 }
